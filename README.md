@@ -27,13 +27,14 @@ export default {
   name: 'app',
   data () {
     return {
-      nowStep: 2,
+      nowStep: 1,
     }
   }
 }
 </script>
 ```
 ## API
+
 | Param        | Description    |  Type  |  Default  |
 | --------   | -----:   | :----: |
 | step-index        | The current step, The starting value is 0.      |   Number    |   -    |

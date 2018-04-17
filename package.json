@@ -1,12 +1,12 @@
 {
-  "name": "vue-step-demo",
-  "description": "A Vue.js project",
+  "name": "vue-awesome-step",
+  "description": "Step Controls Component Based On Vue.js",
   "version": "1.0.0",
   "author": "mangoyogurte <mangoyogurte@163.com>",
   "license": "MIT",
   "private": false,
   "main": "dist/vue-awesome-step.js",
-  "repository": { "type": "git", "url": "https://github.com/yucccc/vue-awesome-step" },
+  "repository": { "type": "git", "url": "https://github.com/mangoyogurte/vue-awesome-step" },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

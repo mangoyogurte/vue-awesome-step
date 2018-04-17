@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-step-demo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="./node_modules/_vue@2.5.16@vue/dist/vue.js"></script>
+    <script src="./dist/vue-awesome-step.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="step-wrapper">
+        <steps :step-index="checked">
+          <step title="企业息" notify="啊啊啊啊啊啊啊啊啊啊啊啊啊"></step>
+          <step title="法人2313息" icon="step-icon-thumb_down"></step>
+          <step title="授权人信息" icon="step-icon-thumb_down"></step>
+        </steps>
+      </div>
+
+    </div>
+
+  </body>
+  <script>
+    new Vue({
+      el: '#app',
+      data(){
+        return{
+          checked:1
+        }
+      }
+    })
+  </script>
+</html>
+<style>
+  #app{
+    width: 100%;
+  }
+
+  .step-wrapper{
+    width: 100%;
+  }
+</style>

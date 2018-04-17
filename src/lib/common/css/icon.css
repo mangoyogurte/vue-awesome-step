@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'sell-icon';
+  src:  url('../fonts/sell-icon.eot?exau1o');
+  src:  url('../fonts/sell-icon.eot?exau1o#iefix') format('embedded-opentype'),
+    url('../fonts/sell-icon.ttf?exau1o') format('truetype'),
+    url('../fonts/sell-icon.woff?exau1o') format('woff'),
+    url('../fonts/sell-icon.svg?exau1o#sell-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="step-icon-"], [class*=" step-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sell-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.step-icon-add_circle:before {
+  content: "\e900";
+}
+.step-icon-arrow_lift:before {
+  content: "\e901";
+}
+.step-icon-check_circle:before {
+  content: "\e902";
+}
+.step-icon-close:before {
+  content: "\e903";
+}
+.step-icon-favorite:before {
+  content: "\e904";
+}
+.step-icon-keyboard_arrow_right:before {
+  content: "\e905";
+}
+.step-icon-remove_circle_outline:before {
+  content: "\e906";
+}
+.step-icon-shopping_cart:before {
+  content: "\e907";
+}
+.step-icon-thumb_down:before {
+  content: "\e908";
+}
+.step-icon-thumb_up:before {
+  content: "\e909";
+}
+

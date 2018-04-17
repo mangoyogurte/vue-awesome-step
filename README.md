@@ -3,11 +3,11 @@
 > 基于Vue.js的步骤控件，适用于PC端和移动端 Step Controls Component Based On Vue.js
 
 ## Installation
-
+``` bash
 npm i vue-awesome-step -save
-
+```
 ## Usage
-
+``` bash
 # example
 import vueAwesomeStep from './lib/index.js'
 Vue.use(vueAwesomeStep)
@@ -32,5 +32,12 @@ export default {
   }
 }
 </script>
-
+```
 ## API
+| Param        | Description    |  Type  |  Default  |
+| --------   | -----:   | :----: |
+| step-index        | The current step, The starting value is 0.      |   Number    |   -    |
+| notify        | Displayed when the mouse hover      |   String    |   -    |
+| icon        | Step icons     |   String    |   step-icon-check_circle    |
+| simple        | Simple version     |   -    |   -    |
+| direction        | Arrange direction     |   String    |   horizontal    |

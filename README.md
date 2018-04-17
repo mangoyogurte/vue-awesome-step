@@ -36,7 +36,7 @@ export default {
 ## API
 
 | Param        | Description    |  Type  |  Default  |
-| --------   | -----:   | :----: | :----: |
+| :--------:  | :-----   | :----: | :----: |
 | step-index        | The current step, The starting value is 0.      |   Number    |   -    |
 | notify        | Displayed when the mouse hover      |   String    |   -    |
 | icon        | Step icons     |   String    |   step-icon-check_circle    |

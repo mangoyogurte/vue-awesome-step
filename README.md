@@ -4,12 +4,12 @@
 
 ## Installation
 ``` bash
-npm i vue-awesome-step -save
+npm i vue-awesome-step --save
 ```
 ## Usage
 ``` bash
 # example
-import vueAwesomeStep from './lib/index.js'
+import vueAwesomeStep from 'vue-awesome-step'
 Vue.use(vueAwesomeStep)
 
 <template>

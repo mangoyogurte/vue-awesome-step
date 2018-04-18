@@ -145,7 +145,6 @@
     position: relative;
   }
   .step-item.step-simple .step-head{
-    padding-right: 10px;
     flex:none;
     display: block;
   }

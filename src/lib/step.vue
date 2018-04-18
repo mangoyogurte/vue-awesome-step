@@ -69,7 +69,7 @@
             this.isSuccess = false;
           }else{
             this.isProcess = false;
-            if(val == this.index+1){
+            if(val >= this.index+1){
               this.isSuccess = true;
             }else{
               this.isWait = true;
@@ -147,6 +147,7 @@
   .step-item.step-simple .step-head{
     flex:none;
     display: block;
+    height: 30px;
   }
 
   .step-head .icon{
@@ -239,20 +240,28 @@
     top: 0;
     left: 30px;
     width: 200px;
-    padding: 18px 20px;
     border-radius: 4px;
     background-color: #fff;
     z-index: 10;
     color: black;
-    opacity: 0;
     transition: all .4s ease;
     line-height: 1.4;
     text-align: justify;
     font-size: 14px;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+
+  .step-item:last-of-type .icon .step-notify{
+    left: -240px;
   }
 
   .icon:hover .step-notify{
+    height: auto;
+    padding: 18px 20px;
     opacity: 1;
   }
 
@@ -262,11 +271,13 @@
       font-size: 30px;
     }
     .step-main .title{
-      line-height: 38px;
       font-size: 16px;
     }
     .step-item .step-head .line{
       height: 3px;
+    }
+    .step-item.step-simple .step-head{
+      margin-right: 6px;
     }
   }
 </style>
